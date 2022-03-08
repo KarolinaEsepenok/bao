@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*******/
+
+.wrapper{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+    background-color: #FFFDF5;
+    font-family: 'Roboto';
+}
+
+.center{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+/*footer*/
+.footer{
+    background-color: #514A7E;
+    height: 373px;
+    margin-top: 150px;
+    padding-top: 82px;
+    font-family: 'Roboto';
+}
+.footer .footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 190px 90px;
+    grid-column-gap: 97px;
+}
+.footer .footer-main .footer-info h5,
+.footer .footer-main .footer-myroom h5,
+.footer .footer-main .footer-company h5,
+.footer .footer-main .footer-social h5{
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFDF5;
+    margin-bottom: 10px;
+}
+.footer .footer-main .footer-info .footer-info-links ,
+.footer .footer-main .footer-myroom .footer-myroom-links{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer .footer-main .footer-info .footer-info-links a,
+.footer .footer-main .footer-myroom .footer-myroom-links a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFDF5;
+    margin-top: 10px;
+
+}
+.footer .footer-main .footer-company p{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFDF5;
+}
+.footer .footer-main .footer-social .social{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.footer .footer-main .footer-social .social a{
+    margin-right: 15px;
+    align-self: end;
+}
+.footer .footer-main .footer-social .phone p,
+.footer .footer-main .footer-social .timework p{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFDF5;
+    font-weight: 300;
+    margin-bottom: 19px;
+    vertical-align: text-top;
+}
+.footer .footer-main .logo{
+    align-self: end;
+}
+footer .footer-main .logo img{
+    width: 97px;
+    margin-left: -26px;
+}
