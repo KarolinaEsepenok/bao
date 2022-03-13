@@ -136,7 +136,11 @@ table {
     border: none;
     border-bottom: 1px solid #7F7F7F;
 }
-
+@media screen and (max-width: 1300px){
+    .center{
+        width: 95%;
+    }
+}
 @media screen and (max-width: 968px){
     .welcome .main .right-nav form input{
         margin-right: 20px;

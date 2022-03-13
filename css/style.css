@@ -783,7 +783,19 @@ footer .footer-main .logo img{
 }
 @media screen and (max-width: 1300px){
     .center{
-        width: 90%;
+        width: 95%;
+    }
+    .welcome .main{
+        width: 95%;
+    }
+    .welcome .main-slider{
+        width: 95%;
+    }
+    .choice .choice-main,
+    .stock-container .stock .stock-name,
+    .reviews-questions .reviews,
+    .reviews-questions .questions{
+        width: 95%;
     }
     .mySwiper{
         width: 90%;
@@ -1002,7 +1014,6 @@ footer .footer-main .logo img{
         }*/
         .footer{
             height: 100%;
-            
             padding-top: 20px;
         }
 
