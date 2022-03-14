@@ -970,7 +970,7 @@ table {
 
 
 }
-
+*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1427,9 +1427,10 @@ table {
 .card-info .left-info .main-photo img{
     width: 575px;
     height: 572px;
-    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1); 
     
 }
+
 .card-info .left-info .many-photo{
     display: flex;
     flex-wrap: nowrap;
@@ -1441,7 +1442,10 @@ table {
     height: 110px;
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
-
+    transition: 0.9;
+}
+.card-info .left-info .many-photo .photo-cards img:hover{
+    transform: scale(1.9);
 }
 .card-info .right-info h4{
     font-weight: 300;
@@ -1542,6 +1546,7 @@ table {
 .bag-container .bag-name{
     display: flex;
     margin-right: 60px;
+    margin-top: 37px;
 }
 
 .bag-container .bag-name h5{
@@ -1710,7 +1715,10 @@ table {
     .welcome .catalog,
     .welcome .card-main,
     .welcome .card-info,
-    .reviews-Bao888S .reviews{
+    .reviews-Bao888S .reviews,
+    .welcome .bag-container,
+    .bag-name,
+    .stock-container .stock{
         width: 95%;
     }
     .catalog .catalog-name .sorting .sorting-name{
@@ -1824,7 +1832,7 @@ table {
 }
 .card-info .left-info .main-photo img{
     
-    height: 90%;
+    width: 70%;
 }
 .card-info .left-info .many-photo{
     width: 90%;
@@ -1846,6 +1854,9 @@ table {
     .card-info{
         grid-template-columns: 1fr;
         grid-row-gap: 20px ;
+    }
+    .right-info .card-stars img{
+        width: 60px;
     }
 }
 @media screen and (max-width: 764px) {
