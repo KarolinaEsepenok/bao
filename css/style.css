@@ -844,17 +844,12 @@ footer .footer-main .logo img{
 }
 @media screen and (max-width: 968px){
     
-    .welcome .main-slider .main-slider-left h1,
-    .welcome .main-slider .main-slider-left h1 .name{
-        font-size: 40px;
-}
+    
     .welcome .main-slider .main-slider-right img{
         width: 100%;
         height: 100%;
       }
-      .choice .choice-main h1{
-          font-size: 30px;
-      }
+      
       .choice{
         background-image: none;
       }
@@ -876,19 +871,11 @@ footer .footer-main .logo img{
 
       }
     
-    .stock-container .stock .stock-name h2,
-    .stock-container .stock .stock-name p{
-        font-size: 30px;
-
-    }
+    
     .reviews-questions{
         background-image: none;
     }
-    .reviews-questions .reviews h3,
-    .reviews-questions .questions h3,
-    .reviews-questions .questions p{
-        font-size: 30px;
-    }
+  
     .reviews-questions .reviews .reviews-main .reviews-left .reviews-left-info,
     .reviews-questions .reviews .reviews-main .reviews-right .reviews-right-info{
         margin-left: 7px;
@@ -913,6 +900,13 @@ footer .footer-main .logo img{
     .welcome .main-slider{
         grid-template-columns: 1fr;
     }
+    .welcome .main-slider .main-slider-left h1,
+    .welcome .main-slider .main-slider-left h1 .name{
+        font-size: 30px;
+}
+    .choice .choice-main h1{
+        font-size: 20px;
+    }
     .welcome .main-slider .main-slider-left{
         display: grid;
     }
@@ -931,9 +925,17 @@ footer .footer-main .logo img{
         height: 242px;
 
     }
-    /*.stock-container .stock .stock-photo{
-        grid-column-gap: 10px;
-    }*/
+    .welcome .main-slider{
+        margin-top: 20px;
+    }
+    .stock-container .stock .stock-name h2,
+    .stock-container .stock .stock-name p{
+        font-size: 20px;
+
+    }
+    .stock-container .stock .stock-photo{
+        margin-top: 20px;
+    }
     .choice .choice-main .choice-info{
         grid-row-gap: 30px;
         align-items: inherit;
@@ -942,6 +944,12 @@ footer .footer-main .logo img{
     .choice .choice-main .choice-info .three-choice,
     .choice .choice-main .choice-info .seven-choice{
         grid-template-columns: 150px auto;
+    }
+    .choice .choice-main .choice-info{
+        margin-bottom: 20px;
+    }
+    .reviews-questions{
+        margin-bottom: 50px;
     }
     .reviews-questions .reviews .reviews-main .reviews-left .reviews-left-info{
         margin-left: 5px;
@@ -952,7 +960,23 @@ footer .footer-main .logo img{
         flex-direction: row;
         justify-content: flex-end;
     }
+    .reviews-questions .reviews h3{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .reviews-questions .questions h3{
+        padding-top: 50px;
+    }
+    .reviews-questions .questions p{
+        margin-bottom: 20px;
+    }
+    .reviews-questions .reviews h3,
+    .reviews-questions .questions h3,
+    .reviews-questions .questions p{
+        font-size: 20px;
+    }
     @media screen and (max-width: 600px){
+        
         
         .choice .choice-main .main-slider-btn{
             height: 100px;

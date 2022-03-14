@@ -1831,8 +1831,8 @@ table {
     margin-right: 20px;
 }
 .card-info .left-info .main-photo img{
-    
-    width: 70%;
+    object-fit: cover;
+    width: 90%;
 }
 .card-info .left-info .many-photo{
     width: 90%;
@@ -1871,6 +1871,16 @@ table {
     .catalog .catalog-items .right-catalog .item-photo .photo{
         width: 100%;
     }*/
+    .catalog .catalog-name p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .catalog .catalog-name h5{
+        font-size: 20px;
+    }
+    .catalog .catalog-name p a{
+        font-size: 14px;
+    }
     .reviews .reviews-main .reviews-left .reviews-left-info{
         margin-left: 5px;
     }
@@ -1880,6 +1890,10 @@ table {
         flex-direction: row;
         justify-content: flex-end;
     }
+    .bag-container .bag-name{
+        margin-top: 25px;
+    }
+    
     .bag-container .product-card-bag{
         grid-template-columns: 1fr;
     }
@@ -1912,10 +1926,17 @@ table {
     }
     .card-main .card-name h5{
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 20px;
+    }
+    
+    .card-main .card-name p{
+        font-size: 14px;
     }
     .card-info{
         padding-top: 20px;
+    }
+    .card-info .right-info h4{
+        font-size: 20px;
     }
     .card-info .left-info{
         flex-direction: row;
@@ -1936,8 +1957,20 @@ table {
     .right-info .right-info-color img{
         margin-bottom: 5px;
     }
+    .right-info .card-reviews{
+        font-size: 14px;
+    }
+    .right-info .card-descr{
+        font-size: 16px;
+    }
+    .right-info .descr-info{
+        font-size: 14px;
+    }
     .reviews-Bao888S{
-        padding-top: 50px;
+        padding-top: 30px;
+    }
+    .reviews h3{
+        font-size: 20px;
     }
     
     
