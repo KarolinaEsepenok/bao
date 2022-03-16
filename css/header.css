@@ -52,7 +52,6 @@ table {
 	margin: 0 auto;
     background-color: #FFFDF5;
 }
-
 .center{
 	max-width: 1170px;
 	width: 100%;
@@ -102,14 +101,12 @@ table {
 .welcome .main .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-
 .welcome .main  .right-nav{
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     width: 100%;
     -webkit-box-align: end;
-    align-items: flex-end;
-      
+    align-items: flex-end;    
 }
 .welcome .main  .right-nav form button img{
     vertical-align: middle;
@@ -120,9 +117,6 @@ table {
 .welcome .main  .right-nav a img{
     vertical-align: bottom;
 }
-
-
-
 .welcome .main  .right-nav form button{
     background-color: #FFFDF5;
     padding-right: 19px;
@@ -156,13 +150,10 @@ table {
         width: 100px;
     }
     .welcome .main .right-nav form input{
-       
         background-color: #FFFDF5;
         border: 0;
-      
         outline: none;
         border: none;
         border-bottom: 1px solid #7F7F7F;
-
 }
 }

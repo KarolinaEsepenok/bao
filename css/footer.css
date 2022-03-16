@@ -53,7 +53,6 @@ table {
     background-color: #FFFDF5;
     font-family: 'Roboto';
 }
-
 .center{
 	max-width: 1170px;
 	width: 100%;
@@ -63,7 +62,6 @@ table {
 .footer{
     background-color: #514A7E;
     height: 373px;
-    
     padding-top: 82px;
     font-family: 'Roboto';
 }
@@ -85,7 +83,6 @@ table {
 .footer .footer-main .footer-myroom .footer-myroom-links{
     display: flex;
     flex-direction: column;
-
 }
 .footer .footer-main .footer-info .footer-info-links a,
 .footer .footer-main .footer-myroom .footer-myroom-links a{
@@ -95,7 +92,6 @@ table {
     line-height: 100%;
     color: #FFFDF5;
     margin-top: 10px;
-
 }
 .footer .footer-main .footer-company p{
     padding-top: 10px;
@@ -135,40 +131,30 @@ footer .footer-main .logo img{
     .footer{
         height: 100%;
     }
-    
     .footer .footer-main{
         grid-template-columns: 1fr 1fr;
         width: 90%;
-       
-
     }
     .footer .footer-main .footer-info {
         margin-bottom: 23px;
     }
-    
-
     footer .footer-main .logo img{
         margin-left: 0;
         margin-top: -90px;
     }
-    
-    
+}
+@media screen and (max-width: 600px){
+    .footer{
+        height: 100%;
+        padding-top: 20px;
     }
-    @media screen and (max-width: 600px){
-        .footer{
-            height: 100%;
-             padding-top: 20px;
-        }
        
-    }
+}
 
 @media screen and (max-width: 425px){
-    
     .footer .footer-main{
         grid-template-columns: 1fr;
         grid-column-gap: 10px;
     }
-    
-    
-    
+
 }

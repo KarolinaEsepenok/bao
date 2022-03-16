@@ -225,7 +225,7 @@
                 <h3>
                     Отзывы наших покупателей
                 </h3>
-                <div class="reviews-main">
+                <div class=" reviews-main">
                     <div class="reviews-left">
                         <div class="photo-one">
                             <img src="images/author-one.jfif" alt="фото автора">
@@ -254,6 +254,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="btn-reviews">
                         <a href="#"></a>
                     </div>
@@ -263,56 +264,77 @@
             <div class="questions center">
                 <h3>Часто задаваемые вопросы</h3>
                 <p>FAQ</p>
-                <div class="questions-item">
+              <div class="questions-item">
                     <div class="question-info">
                         <h5>Как сделать заказ?</h5>
-                        <p>Чтобы сделать заказ пользователь переходит в каталог сайта, выбирает
+                        <p class="answer-hide" id="info1">Чтобы сделать заказ пользователь переходит в каталог сайта, выбирает
                             нужный товар, отпраляет его в коризину
                             и нажимает кнопку “заказать”. Выбирает
                             способ оплаты и доставки и покупает товар. </p>
                     </div>
-                    <div class="plusclose">
-                        <img src="images/close.svg" alt="close">
+                    <div class="plus " id="plus1">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
                 <div class="questions-item">
                     <div class="question-info">
                         <h5>Способы оплаты</h5>
+                        <p class="answer-hide" id="info2">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                             incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="plus">
-                        <img src="images/plus.svg" alt="plus">
+                    <div class="plus" id="plus2">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
                 <div class="questions-item">
                     <div class="question-info">
                         <h5>Доставка</h5>
+                        <p class="answer-hide" id="info3">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                             incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="plus">
-                        <img src="images/plus.svg" alt="plus">
+                    <div class="plus" id="plus3">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
                 <div class="questions-item">
                     <div class="question-info">
                         <h5>Сроки доставки</h5>
+                        <p class="answer-hide" id="info4">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                             incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="plus">
-                        <img src="images/plus.svg" alt="plus">
+                    <div class="plus" id="plus4">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
                 <div class="questions-item">
                     <div class="question-info">
                         <h5>Как сделать обмен?</h5>
+                        <p class="answer-hide" id="info5">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                             incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="plus">
-                        <img src="images/plus.svg" alt="plus">
+                    <div class="plus" id="plus5">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
                 <div class="questions-item">
                     <div class="question-info">
                         <h5>Как сделать возврат?</h5>
+                        <p class="answer-hide" id="info6">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor
+                             incididunt ut labore et dolore magna aliqua.</p>
                     </div>
-                    <div class="plus">
-                        <img src="images/plus.svg" alt="plus">
+                    <div class="plus" id="plus6">
+                        <img src="images/plus.svg" alt="plus" class="open-info">
+                        <img src="images/close.svg" alt="close" class="close-info">
                     </div>
                 </div>
             </div>
@@ -441,6 +463,28 @@
             }
         });
     </script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script>
+         $('.owl-carousel').owlCarousel({
+             loop:true,
+             // margin:10,
+             nav:true,
+             dots: false,
+             responsive:{
+                 0:{
+                     items:1,
+               
+                 },
+                 600:{
+                     items:1
+                 },
+                 1000:{
+                     items:1
+                 }
+             }
+         })
+     </script>
+     <script src="js/script.js"></script>
 </body>
 
 </html>
