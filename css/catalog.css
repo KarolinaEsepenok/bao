@@ -394,7 +394,7 @@ table {
     color: #7D7D7D;
     line-height: 100%;
     padding-left: 99px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 .card-main .card-name h5{
     font-size: 40px;
@@ -873,7 +873,7 @@ table {
         padding-bottom: 20px;
     }
     .card-main .card-name h5{
-        margin-top: 20px;
+        margin-top: 50px;
         font-size: 20px;
     }
     .card-main .card-name p{
@@ -946,6 +946,7 @@ table {
 }
     .bag-container .bag-name h5 img{
         width: 20px;
+        margin-bottom: 9px;
 }
     .bag-container .product-card-bag{
         margin-top: 20px;
@@ -1006,7 +1007,7 @@ table {
 }
 @media screen and (max-width: 392px){
     .bag-container .product-card-bag .price-product a{
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .bag-container .product-card-bag .price-product{
         justify-content: space-between;

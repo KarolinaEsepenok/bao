@@ -156,5 +156,8 @@ footer .footer-main .logo img{
         grid-template-columns: 1fr;
         grid-column-gap: 10px;
     }
+    .footer .footer-main .footer-company{
+        margin-top: 20px;
+    }
 
 }

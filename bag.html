@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./scss/catalog1.scss">
     <link rel="stylesheet" href="./css/catalog.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./scss/catalog1.scss">
-    <link rel="stylesheet" href="./scss/header.scss">
-   
+    
+
+
 
 
 </head>
@@ -30,20 +31,21 @@
     <div class="wrapper welcome">
         <header class="main center">
             <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="images/burger.svg" alt="burger" title="Каталог">
                 </button>
                 <ul class="dropdown-menu menu-items" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="catalog.html">Рации</a></li>
-                  <li><a class="dropdown-item" href="#">Антенны</a></li>
-                  <li><a class="dropdown-item" href="#">Гарнитуры</a></li>
-                  <li><a class="dropdown-item" href="#">Аккумуляторы</a></li>
-                  <li><a class="dropdown-item" href="#">Аксессуары</a></li>
-                  <li><a class="dropdown-item" href="#">Зарядные устройства</a></li>
-                  <li><a class="dropdown-item" href="#">Комплекты</a></li>
+                    <li><a class="dropdown-item" href="catalog.html">Рации</a></li>
+                    <li><a class="dropdown-item" href="#">Антенны</a></li>
+                    <li><a class="dropdown-item" href="#">Гарнитуры</a></li>
+                    <li><a class="dropdown-item" href="#">Аккумуляторы</a></li>
+                    <li><a class="dropdown-item" href="#">Аксессуары</a></li>
+                    <li><a class="dropdown-item" href="#">Зарядные устройства</a></li>
+                    <li><a class="dropdown-item" href="#">Комплекты</a></li>
                 </ul>
-              </div>
-            <div class="right-nav">
+            </div>
+            <div class="right-nav" >
                 <form action="nav">
                     <button type="submit"><img src="images/glass.svg" alt="search" title="Поиск"></button>
                     <input type="search" placeholder="Поиск">
@@ -58,7 +60,7 @@
             </div>
         </header>
         <section class="bag-container center">
-            <div class="bag-name center">
+            <div class="bag-name center" id="#top">
                 <a href="catalog.html"><img src="images/down.png" alt="Line"></a>
                 <h5>Корзина <img src="images/bag3.svg" alt="Корзина" title="Корзина"></h5>
             </div>
@@ -76,10 +78,12 @@
                         </div>
                         <div class="choice-product">
                             <div class="like-product">
-                                <a href="#" alt="В избранное"><img src="images/like.svg" alt="Избранное" title="Избранное">В избранное</a>  
+                                <a href="#" alt="В избранное"><img src="images/like.svg" alt="Избранное"
+                                        title="Избранное">В избранное</a>
                             </div>
-                            <div class="delete-product"> 
-                                <a href="#" alt="Удалить"><img src="images/trach.svg" alt="Удалить" title="Удалить">Удалить</a>
+                            <div class="delete-product">
+                                <a href="#" alt="Удалить"><img src="images/trach.svg" alt="Удалить"
+                                        title="Удалить">Удалить</a>
                             </div>
                         </div>
                     </div>
@@ -102,12 +106,14 @@
                         <div class="amount-product">
                             <p>- 1 + </p>
                         </div>
-                        <div class="choice-product">  
+                        <div class="choice-product">
                             <div class="like-product">
-                                <a href="#" alt="В избранное"><img src="images/like.svg" alt="Избранное" title="Избранное">В избранное</a>  
+                                <a href="#" alt="В избранное"><img src="images/like.svg" alt="Избранное"
+                                        title="Избранное">В избранное</a>
                             </div>
-                            <div class="delete-product"> 
-                                <a href="#" alt="Удалить"><img src="images/trach.svg"  alt="Удалить" title="Удалить">Удалить</a>
+                            <div class="delete-product">
+                                <a href="#" alt="Удалить"><img src="images/trach.svg" alt="Удалить"
+                                        title="Удалить">Удалить</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +128,7 @@
                 <div class="summa-info">
                     <p>Итого:</p>
                     <p class="summa-main">86.00</p>
-                 <p class="number-product">Товаров 2шт</p>
+                    <p class="number-product">Товаров 2шт</p>
                 </div>
                 <div class="btn-bottom"><a href="#">Заказать</a></div>
                 <p class="contract"><img src="images/contract.svg" alt="Согласие" title="Согласие">
@@ -131,162 +137,162 @@
             </div>
             <div class="top-item">
                 <a href="#top" title="В начало страницы">
-                <img src="images/arrow.png" alt="arrow">
-            </a>
+                    <img src="images/arrow.png" alt="arrow">
+                </a>
             </div>
-   
-    </section>
-    <section class="stock-container wrapper ">
-        <div class="stock center">
-            <div class="stock-name ">
-                <h2>Может, что-то ещё</h2>
-            </div>
-            <div class="swiper mySwiper">
-                <div class="stock-photo swiper-wrapper">
-                    <div class="stock-photo-first swiper-slide">
-                        <img src="images/bf888S.jpg" alt="bf8885">
-                        <div class="stock-info">
-                            <div>
-                                <p>43.00 р <span> 53.00 р</span></p>
-                                <p><span class="product">Рация Baofeng BF-888S</span> </p>
-                            </div>
-                            <div class="stock-card">
-                                <a href="#">
-                                    <img src="images/like.svg" alt="like"></a>
-                                <a href="#">
-                                    <img src="images/bag.svg" alt="like"></a>
-                            </div>
-                            <div class="btn-stock">
-                                <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230
-                                </a>
-                                </p>
-                            </div>
-                            <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
-                        </div>
-                    </div>
-                    <div class="stock-photo-first swiper-slide">
-                        <img src="images/batUV5R.jpg" alt="bf8885">
-                        <div class="stock-info">
-                            <div>
-                                <p>30.00 р <span> 35.00 р</span></p>
-                                <p><span class="product">Аккумулятор 3800mah</span> </p>
-                            </div>
-                            <div class="stock-card">
-                                <a href="#">
-                                    <img src="images/like.svg" alt="like"></a>
-                                <a href="#">
-                                    <img src="images/bag.svg" alt="like"></a>
-                            </div>
-                            <div class="btn-stock">
-                                <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
-                                </p>
-                            </div>
-                            <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
-                        </div>
-                    </div>
-                    <div class="stock-photo-first swiper-slide">
-                        <img src="images/adapt.jpg" alt="bf8885">
-                        <div class="stock-info">
-                            <div>
-                                <p>40.00 р <span> 50.00 р</span></p>
-                                <p><span class="product">Зарядный стакан UV5R</span> </p>
-                            </div>
-                            <div class="stock-card">
-                                <a href="#">
-                                    <img src="images/like.svg" alt="like"></a>
-                                <a href="#">
-                                    <img src="images/bag.svg" alt="like"></a>
-                            </div>
-                            <div class="btn-stock">
-                                <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
-                                </p>
-                            </div>
-                            <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
-                        </div>
-                    </div>
-                    <div class="stock-photo-first swiper-slide">
-                        <img src="images/adapt.jpg" alt="bf8885">
-                        <div class="stock-info">
-                            <div>
-                                <p>40.00 р <span> 50.00 р</span></p>
 
-                                <p><span class="product">Зарядный стакан UV5R</span> </p>
+        </section>
+        <section class="stock-container wrapper ">
+            <div class="stock center">
+                <div class="stock-name ">
+                    <h2>Может, что-то ещё</h2>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="stock-photo swiper-wrapper">
+                        <div class="stock-photo-first swiper-slide">
+                            <img src="images/bf888S.jpg" alt="bf8885">
+                            <div class="stock-info">
+                                <div>
+                                    <p>43.00 р <span> 53.00 р</span></p>
+                                    <p><span class="product">Рация Baofeng BF-888S</span> </p>
+                                </div>
+                                <div class="stock-card">
+                                    <a href="#">
+                                        <img src="images/like.svg" alt="like"></a>
+                                    <a href="#">
+                                        <img src="images/bag.svg" alt="like"></a>
+                                </div>
+                                <div class="btn-stock">
+                                    <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
                             </div>
-                            <div class="stock-card">
-                                <a href="#">
-                                    <img src="images/like.svg" alt="like"></a>
-                                <a href="#">
-                                    <img src="images/bag.svg" alt="like"></a>
+                        </div>
+                        <div class="stock-photo-first swiper-slide">
+                            <img src="images/batUV5R.jpg" alt="bf8885">
+                            <div class="stock-info">
+                                <div>
+                                    <p>30.00 р <span> 35.00 р</span></p>
+                                    <p><span class="product">Аккумулятор 3800mah</span> </p>
+                                </div>
+                                <div class="stock-card">
+                                    <a href="#">
+                                        <img src="images/like.svg" alt="like"></a>
+                                    <a href="#">
+                                        <img src="images/bag.svg" alt="like"></a>
+                                </div>
+                                <div class="btn-stock">
+                                    <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
+                                    </p>
+                                </div>
+                                <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
                             </div>
-                            <div class="btn-stock">
-                                <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
-                                </p>
+                        </div>
+                        <div class="stock-photo-first swiper-slide">
+                            <img src="images/adapt.jpg" alt="bf8885">
+                            <div class="stock-info">
+                                <div>
+                                    <p>40.00 р <span> 50.00 р</span></p>
+                                    <p><span class="product">Зарядный стакан UV5R</span> </p>
+                                </div>
+                                <div class="stock-card">
+                                    <a href="#">
+                                        <img src="images/like.svg" alt="like"></a>
+                                    <a href="#">
+                                        <img src="images/bag.svg" alt="like"></a>
+                                </div>
+                                <div class="btn-stock">
+                                    <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
+                                    </p>
+                                </div>
+                                <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
                             </div>
-                            <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
+                        </div>
+                        <div class="stock-photo-first swiper-slide">
+                            <img src="images/adapt.jpg" alt="bf8885">
+                            <div class="stock-info">
+                                <div>
+                                    <p>40.00 р <span> 50.00 р</span></p>
+
+                                    <p><span class="product">Зарядный стакан UV5R</span> </p>
+                                </div>
+                                <div class="stock-card">
+                                    <a href="#">
+                                        <img src="images/like.svg" alt="like"></a>
+                                    <a href="#">
+                                        <img src="images/bag.svg" alt="like"></a>
+                                </div>
+                                <div class="btn-stock">
+                                    <p><a href="cardBao888S.html" target="_blank" title="O товаре">Подробнее &#10230</a>
+                                    </p>
+                                </div>
+                                <div class="stock-stars"><img src="images/stars.png" alt="stars"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-button-next"><img src="images/line7right.svg" alt="Следующий слайд"
-                        title="Следующий слайд"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
-    <footer class="wrapper">
-        <div class="footer">
-            <div class="footer-main center">
-                <div class="footer-info">
-                    <h5>Информация</h5>
-                    <div class="footer-info-links">
-                        <a href="index.html">Главная</a>
-                        <a href="index.html">Акции</a>
-                        <a href="catalog.html">Каталог</a>
-                        <a href="#">Возврат</a>
-                        <a href="#">Доставка</a>
-                        <a href="#">Как сделать заказ?</a>
-                    </div>
-                </div>
-                <div class="footer-myroom">
-                    <h5>Мой кабинет</h5>
-                    <div class="footer-myroom-links">
-                        <a href="bag.html">Мои заказы</a>
-                        <a href="#">Мои адреса</a>
-                        <a href="#">Мои скидки</a>
-                        <a href="#">Моя информация</a>
-                    </div>
-                </div>
-                <div class="footer-company">
-                    <h5>Контактная информация</h5>
-                    <p>ИП Семёнов Александр Борисович УНП: 192194196
-                        Регистрационный орган: Минский горисполком
-                        Дата регистрации компании: 15.01.2014 +375447043787
-                    </p>
-                </div>
-                <div class="footer-social">
-                    <h5>Соц.сeти</h5>
-                    <div class="social">
-                        <a href="#"><img src="images/tele.svg" alt="Телеграмм" title="Тelegram"></a>
-                        <a href="#"><img src="images/insta.svg" alt="Инстаграм" title="Instagram"></a>
-                        <a href="#"><img src="images/mail.svg" alt="Почта" title="Email"></a>
-                        <a href="#"><img src="images/viber.svg" alt="Вайбер" title="Viber"></a>
-                    </div>
-                    <div class="phone">
-                        <img src="images/phone.svg" alt="Телефон">
-                        <p>+375447043787</p>
-                    </div>
-                    <div class="timework">
-                        <img src="images/time.svg" alt="Время">
-                        <p>круглосуточно, без выходных</p>
-                    </div>
-                </div>
-                <div class="logo">
-                    <img src="images/logo.svg" alt="logo">
+                    <div class="swiper-button-next"><img src="images/line7right.svg" alt="Следующий слайд"
+                            title="Следующий слайд"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
-        </div>
-    </footer>
-</div>
+        </section>
+        <footer class="wrapper">
+            <div class="footer">
+                <div class="footer-main center">
+                    <div class="footer-info">
+                        <h5>Информация</h5>
+                        <div class="footer-info-links">
+                            <a href="index.html">Главная</a>
+                            <a href="index.html">Акции</a>
+                            <a href="catalog.html">Каталог</a>
+                            <a href="#">Возврат</a>
+                            <a href="#">Доставка</a>
+                            <a href="#">Как сделать заказ?</a>
+                        </div>
+                    </div>
+                    <div class="footer-myroom">
+                        <h5>Мой кабинет</h5>
+                        <div class="footer-myroom-links">
+                            <a href="bag.html">Мои заказы</a>
+                            <a href="#">Мои адреса</a>
+                            <a href="#">Мои скидки</a>
+                            <a href="#">Моя информация</a>
+                        </div>
+                    </div>
+                    <div class="footer-company">
+                        <h5>Контактная информация</h5>
+                        <p>ИП Семёнов Александр Борисович УНП: 192194196
+                            Регистрационный орган: Минский горисполком
+                            Дата регистрации компании: 15.01.2014 +375447043787
+                        </p>
+                    </div>
+                    <div class="footer-social">
+                        <h5>Соц.сeти</h5>
+                        <div class="social">
+                            <a href="https://t.me/AleXander1tut"><img src="images/tele.svg" alt="Телеграмм" title="Тelegram"></a>
+                            <a href="#"><img src="images/insta.svg" alt="Инстаграм" title="Instagram"></a>
+                            <a href="#"><img src="images/mail.svg" alt="Почта" title="Email"></a>
+                            <a href="viber://add?number=375447043787"><img src="images/viber.svg" alt="Вайбер" title="Viber"></a>
+                        </div>
+                        <div class="phone">
+                            <img src="images/phone.svg" alt="Телефон">
+                            <p>+375447043787</p>
+                        </div>
+                        <div class="timework">
+                            <img src="images/time.svg" alt="Время">
+                            <p>круглосуточно, без выходных</p>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
@@ -323,8 +329,8 @@
             breakpoints: {
                 1200: {
                     slidesPerView: 4,
-                     spaceBetween: 80
-                   ,
+                    spaceBetween: 80
+                    ,
                 },
                 1024: {
                     slidesPerView: 4,
@@ -351,8 +357,8 @@
                     spaceBetween: 0,
 
                 }
-               
-            }      
+
+            }
         });
     </script>
 
